@@ -1,0 +1,32 @@
+# Ignore build outputs
+bin/
+obj/
+out/
+
+# User-specific files
+*.user
+*.suo
+*.csproj.user
+
+# Visual Studio Code settings
+.vscode/
+
+# Ignore application settings (if environment-specific settings should not be committed)
+appsettings.json
+appsetting.*.json
+
+# Publish output
+publish/
+
+# Logs
+*.log
+
+# Dependency directories (if using npm or frontend frameworks)
+node_modules/
+
+# JetBrains Rider files
+.idea/
+*.DotSettings.user
+
+# macOS system files
+.DS_Store
